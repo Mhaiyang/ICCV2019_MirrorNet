@@ -1,7 +1,7 @@
 # ICCV2019_MirrorNet
 
 ## Where Is My Mirror? (ICCV2019)
-Xin Yang*, [Haiyang Mei](https://mhaiyang.github.io/)*, Ke Xu, Xiaopeng Wei, Baocai Yin, [Rynson W.H. Lau](http://www.cs.cityu.edu.hk/~rynson/) <sup>&dagger;</sup> (* Joint first author. <sup>&dagger;</sup> Rynson Lau is the corresponding author.)
+Xin Yang\*, [Haiyang Mei](https://mhaiyang.github.io/)\*, Ke Xu, Xiaopeng Wei, Baocai Yin, [Rynson W.H. Lau](http://www.cs.cityu.edu.hk/~rynson/) <sup>&dagger;</sup> (* Joint first authors. <sup>&dagger;</sup> Rynson Lau is the corresponding author.)
 
 [[Project Page](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html)][[Arxiv](https://arxiv.org/pdf/1908.09101.pdf)]
 
@@ -10,14 +10,15 @@ Mirrors are everywhere in our daily lives. Existing computer vision systems do n
 
 ### Citation
 If you use this code or our dataset (including test set), please cite:
-'''
-@InProceedings{Yang_2019_ICCV,
-    author = {Yang, Xin and Mei, Haiyang and Xu, Ke and Wei, Xiaopeng and Yin, Baocai and Rynson, W.H. Lau},
-    title = {Where Is My Mirror?},
-    booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+
+```
+@InProceedings{Yang_2019_ICCV, 
+    author = {Yang, Xin and Mei, Haiyang and Xu, Ke and Wei, Xiaopeng and Yin, Baocai and Rynson, W.H. Lau}, 
+    title = {Where Is My Mirror?}, 
+    booktitle = {IEEE International Conference on Computer Vision (ICCV)}, 
     year = {2019}
-  }
-'''
+}
+```
 
 ### Dataset
 See [Peoject Page](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html)
@@ -27,11 +28,11 @@ See [Peoject Page](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html)
 * TorchVision == 0.2.1
 * CUDA 9.0  cudnn 7
 * Setup
-'''
+```
 sudo pip3 install -r requirements.txt
 git clone https://github.com/Mhaiyang/dss_crf.git
 sudo python setup.py install
-'''
+```
 
 ### Train & Test
 ###### Train:
