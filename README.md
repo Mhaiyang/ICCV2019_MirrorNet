@@ -35,14 +35,14 @@ sudo python setup.py install
 ```
 
 ### Train & Test
-###### Train:
+##### Train:
 Coming Soon！
 
-###### Test:
+##### Test:
 Coming Soon！
 
 ### License
-Please see 'license.txt' 
+Please see `license.txt` 
 
 ### Contact
 E-Mail: mhy666@mail.dlut.edu.cn
