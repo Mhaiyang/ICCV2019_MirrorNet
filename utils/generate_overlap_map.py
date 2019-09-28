@@ -5,7 +5,7 @@
  
  @Project : ICCV2019_MirrorNet
  @File    : generate_overlap_map.py
- @Function:
+ @Function: generate overlap map of each image in test set, according to the statistic on training set.
  
 """
 import os
