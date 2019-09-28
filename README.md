@@ -59,6 +59,17 @@ Coming Soon！
 | BDRAR | &radic; | 67.43 | 0.821 | 0.792 | 0.093 | 12.41 |
 | MirrorNet | &radic; | 78.95 | 0.933 | 0.857 | 0.065 | 6.39 |
 
+##### Component analysis
+
+| Networks | IOU | Acc | BER |  
+| :--- | :---: | :---: | :---: |
+| basic + BCE loss | 74.03 | 0.821 | 10.60 |
+| basic + lovasz-hinge loss | 75.36 | 0.820 | 10.44 |
+| basic + CCFE w/o contrasts | 78.59 | 0.851 | 8.55 |
+| basic + CCFE w/ 1B4C | 76.36 | 0.882 | 8.01 |
+| basic + CCFE w/ 4B1C | 78.53 | 0.853 | 9.08 |
+| MirrorNet | 78.95 | 0.933 | 6.39 |
+
 ##### Qualitative Results
 
 ### License
