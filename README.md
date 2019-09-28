@@ -45,9 +45,22 @@ Coming Soon！
 
 ##### Quantitative Results
 
-|   |   |   |   |   |
-|___|___|___|___|___|
-|Statistics|___|___|___|___|
+| method | CRF | IOU | Acc | F | MAE | BER |  
+|----------------|------|------|------|-----------------|-----------------| ----------  
+| Statistics | - | 30.76 | 0.595 | 0.436 | 0.360 | 32.94 |
+| PSPNet | - | 63.18 | 0.750 | 0.746 | 0.117 | 15.82 |            |
+| ICNet | - |
+| Mask RCNN | - |
+| DSS | - |
+| PiCANet | - |
+| RAS | - |
+| R<sup>3</sup>Net w/o C | - |
+| R<sup>3</sup>Net | - |
+| DSC | - |
+| BDRAR w/o C | - |
+| BDRAR | - |
+| MirrorNet w/o C | - |
+| MirrorNet | - |
 
 ##### Qualitative Results
 
