@@ -1,5 +1,5 @@
 Where Is My Mirror?
-Xin Yang*, Haiyang Mei*, Ke Xu, Xiaopeng Wei, Baocai Yin, Rynson W.H. Lau <sup>&dagger;</sup> (*Joint first authors, <sup>&dagger;</sup>corresponding author)
+Xin Yang*, Haiyang Mei*, Ke Xu, Xiaopeng Wei, Baocai Yin, Rynson W.H. Lau (*Joint first authors)
 ICCV October, 2019
 
 Copyright (c) 2019
