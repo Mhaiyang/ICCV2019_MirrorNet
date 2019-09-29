@@ -34,12 +34,8 @@ git clone https://github.com/Mhaiyang/dss_crf.git
 sudo python setup.py install
 ```
 
-### Train & Test
-##### Train:
-Coming Soon！
-
-##### Test:
-Coming Soon！
+### Test
+run `infer.py`
 
 ### Main Results
 

@@ -16,7 +16,6 @@ import torch
 from PIL import Image
 from torch.autograd import Variable
 from torchvision import transforms
-import skimage.io
 
 from config import msd_testing_root
 from misc import check_mkdir, crf_refine
@@ -30,7 +29,7 @@ exp_name = 'TAYLOR5'
 args = {
     'snapshot': '160',
     'scale': 384,
-    'crf': False
+    'crf': True
 }
 
 img_transform = transforms.Compose([
@@ -78,17 +77,8 @@ def main():
                 if args['crf']:
                     f_1 = crf_refine(np.array(img.convert('RGB')), f_1)
 
-                # Image.fromarray(prediction).save(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), 'map', img_name[:-4] + ".png"))
-                # Image.fromarray(edge).save(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), 'edge', img_name[:-4] + ".png"))
-                # Image.fromarray(f_4).save(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), 'f4', img_name[:-4] + ".png"))
-                # Image.fromarray(f_3).save(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), 'f3', img_name[:-4] + ".png"))
-                # Image.fromarray(f_2).save(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), 'f2', img_name[:-4] + ".png"))
                 Image.fromarray(f_1).save(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), img_name[:-4] + ".png"))
-                # skimage.io.imsave(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), 'f1', img_name[:-4] + ".png"), np.where(f_1>=127.5, 255, 0).astype(np.uint8))
-                # skimage.io.imsave(os.path.join(ckpt_path, exp_name, '%s_%s' % (exp_name, args['snapshot']), img_name[:-4] + ".png"), prediction.astype(np.uint8))
-                # check_mkdir(os.path.join(msd_testing_root, 'taylor5_' + str(args['scale'])))
-                # Image.fromarray(f_1).save(
-                #     os.path.join(msd_testing_root, 'taylor5_' + str(args['scale']), img_name[:-4] + ".png"))
+
             end = time.time()
             print("Average Time Is : {:.2f}".format((end - start) / len(img_list)))
 
