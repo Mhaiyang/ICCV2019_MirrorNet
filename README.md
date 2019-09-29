@@ -70,6 +70,7 @@ run `infer.py`
 | MirrorNet | 78.95 | 0.933 | 6.39 |
 
 ##### Qualitative Results
+![results](assets/results.png)
 
 ### License
 Please see `license.txt` 
