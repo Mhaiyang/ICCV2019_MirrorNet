@@ -19,13 +19,13 @@ from torchvision import transforms
 
 from config import msd_testing_root
 from misc import check_mkdir, crf_refine
-from mirrornet import TAYLOR5
+from mirrornet import MirrorNet
 
 device_ids = [0]
 torch.cuda.set_device(device_ids[0])
 
 ckpt_path = './ckpt'
-exp_name = 'TAYLOR5'
+exp_name = 'MirrorNet'
 args = {
     'snapshot': '160',
     'scale': 384,
@@ -44,7 +44,7 @@ to_pil = transforms.ToPILImage()
 
 
 def main():
-    net = TAYLOR5().cuda(device_ids[0])
+    net = MirrorNet().cuda(device_ids[0])
 
     if len(args['snapshot']) > 0:
         print('Load snapshot {} for testing'.format(args['snapshot']))
@@ -64,7 +64,7 @@ def main():
                     img = img.convert('RGB')
                     print("{} is a gray image.".format(name))
                 w, h = img.size
-                img_var = Variable(img_transform(img).unsqueeze(0)).cuda()
+                img_var = Variable(img_transform(img).unsqueeze(0)).cuda(device_ids[0])
                 f_4, f_3, f_2, f_1 = net(img_var)
                 f_4 = f_4.data.squeeze(0).cpu()
                 f_3 = f_3.data.squeeze(0).cpu()

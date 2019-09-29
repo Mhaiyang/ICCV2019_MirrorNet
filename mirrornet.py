@@ -5,7 +5,7 @@
  
  @Project : ICCV2019_MirrorNet
  @File    : mirrornet.py
- @Function:
+ @Function: MirrorNet.
  
 """
 import torch
@@ -222,9 +222,9 @@ class Contrast_Block(nn.Module):
 ###################################################################
 # ########################## NETWORK ##############################
 ###################################################################
-class TAYLOR5(nn.Module):
+class MirrorNet(nn.Module):
     def __init__(self, backbone_path=None):
-        super(TAYLOR5, self).__init__()
+        super(MirrorNet, self).__init__()
         resnext = ResNeXt101(backbone_path)
         self.layer0 = resnext.layer0
         self.layer1 = resnext.layer1
