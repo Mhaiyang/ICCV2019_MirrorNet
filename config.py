@@ -5,7 +5,7 @@
  
  @Project : ICCV2019_MirrorNet
  @File    : config.py
- @Function:
+ @Function: configurations.
  
 """
 backbone_path = '/root/backbone/resnext/resnext_101_32x4d.pth'

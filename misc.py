@@ -5,7 +5,7 @@
  
  @Project : ICCV2019_MirrorNet
  @File    : misc.py
- @Function:
+ @Function: functions.
  
 """
 import numpy as np
