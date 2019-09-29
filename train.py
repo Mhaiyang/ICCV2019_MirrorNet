@@ -8,16 +8,6 @@
  @Function: train the network.
  
 """
-"""
- @Time    : 201/27/19 16:25
- @Author  : TaylorMei
- @Email   : mhy845879017@gmail.com
-
- @Project : iccv
- @File    : train_mhy.py
- @Function:
-
-"""
 import datetime
 import os
 
