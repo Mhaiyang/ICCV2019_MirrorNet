@@ -37,7 +37,7 @@ sudo python setup.py install
 ### Test
 Download trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html), then run `infer.py`.
 
-### Main Results
+### Updated Main Results
 
 ##### Quantitative Results
 
