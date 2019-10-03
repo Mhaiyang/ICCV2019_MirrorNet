@@ -48,8 +48,8 @@ def main():
 
     if len(args['snapshot']) > 0:
         print('Load snapshot {} for testing'.format(args['snapshot']))
-        net.load_state_dict(torch.load(os.path.join(ckpt_path, exp_name, args['snapshot'] + '.pth')))
-        print('Load {} succeed!'.format(os.path.join(ckpt_path, exp_name, args['snapshot'] + '.pth')))
+        net.load_state_dict(torch.load(os.path.join(ckpt_path, exp_name, 'MirrorNet.pth')))
+        print('Load {} succeed!'.format(os.path.join(ckpt_path, exp_name, 'MirrorNet.pth')))
 
     net.eval()
     with torch.no_grad():
