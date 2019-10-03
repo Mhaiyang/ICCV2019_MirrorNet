@@ -41,7 +41,7 @@ Download trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV
 
 ##### Quantitative Results
 
-| method | CRF | IoU\uparrow | Acc&uarr; | F&uarr; | MAE&darr; | BER&darr; |  
+| method | CRF | IoU&uarr; | Acc&uarr; | F&uarr; | MAE&darr; | BER&darr; |  
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |  
 | Statistics | - | 30.83 | 0.595 | 0.438 | 0.358 | 32.89 |
 | PSPNet | - | 63.21 | 0.750 | 0.746 | 0.117 | 15.82 |
@@ -56,7 +56,7 @@ Download trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV
 | BDRAR w/o C | - | 67.01 | 0.822 | 0.799 | 0.099 | 12.46 |
 | BDRAR | &radic; | 67.43 | 0.821 | 0.792 | 0.093 | 12.41 |
 | MirrorNet w/o C | - | <font color="blue">78.46</font> | <font color="blue">0.933</font> | <font color="blue">0.857</font> | 0.085 | <font color="blue">6.46</font> |
-| MirrorNet | &radic; | <font color="red">78.95</font> | <font color="red">0.933</font> | <font color="red">0.857</font> | <font color="red">0.065</font> | <font color="red">6.39</font> |
+| MirrorNet | &radic; | <font style='color:red'>78.95</font> | <font color="red">0.933</font> | <font color="red">0.857</font> | <font color="red">0.065</font> | <font color="red">6.39</font> |
 
 ##### Component analysis
 
