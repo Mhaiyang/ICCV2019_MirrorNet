@@ -51,12 +51,12 @@ Download trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV
 | PiCANet | - | 71.78 | 0.845 | 0.808 | 0.088 | 10.99 |
 | RAS | - | 60.48 | 0.695 | 0.758 | 0.111 | 17.60 |
 | R<sup>3</sup>Net w/o C | - | 72.69 | 0.805 | 0.840 | 0.080 | 11.46 |
-| R<sup>3</sup>Net | &radic; | 73.21 | 0.805 | 0.846 | <font color="blue">0.068</font> | 11.39 |
+| R<sup>3</sup>Net | &radic; | 73.21 | 0.805 | 0.846 | </b>0.068</b> | 11.39 |
 | DSC | - | 69.71 | 0.816 | 0.812 | 0.087 | 11.77 |
 | BDRAR w/o C | - | 67.01 | 0.822 | 0.799 | 0.099 | 12.46 |
 | BDRAR | &radic; | 67.43 | 0.821 | 0.792 | 0.093 | 12.41 |
-| MirrorNet w/o C | - | <font color="blue">78.46</font> | <font color="blue">0.933</font> | <font color="blue">0.857</font> | 0.085 | <font color="blue">6.46</font> |
-| MirrorNet | &radic; | ```html <font color="red">78.95</font> ``` | <font color="red">0.933</font> | <font color="red">0.857</font> | <font color="red">0.065</font> | <font color="red">6.39</font> |
+| MirrorNet w/o C | - | 78.46| 0.933| 0.857| 0.085 | 6.46 |
+| MirrorNet | &radic; | <b>78.95</b> | </b>0.933</b>| </b>0.857<</b> | </b>0.065</b>| </b>6.39</b>|
 
 ##### Component analysis
 
