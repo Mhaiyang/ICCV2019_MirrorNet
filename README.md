@@ -44,8 +44,7 @@ Download trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV
 
 
 ##### Component analysis
-<img src="asset/table2.png" width="50%" height="50%">
-![table2](assets/table2.png)
+<img src="https://github.com/Mhaiyang/ICCV2019_MirrorNet/blob/master/assets/table2.png" width="50%" height="50%">
 
 
 ##### Qualitative Results
