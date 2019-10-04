@@ -40,15 +40,15 @@ Download trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV
 ### Updated Main Results
 
 ##### Quantitative Results
-![table1](assets/table1.png)
+<img src="https://github.com/Mhaiyang/ICCV2019_MirrorNet/blob/master/assets/table1.png" width="60%" height="60%">
 
 
 ##### Component analysis
-<img src="https://github.com/Mhaiyang/ICCV2019_MirrorNet/blob/master/assets/table2.png" width="50%" height="50%">
+<img src="https://github.com/Mhaiyang/ICCV2019_MirrorNet/blob/master/assets/table2.png" width="60%" height="60%">
 
 
 ##### Qualitative Results
-![results](assets/results.png)
+<img src="https://github.com/Mhaiyang/ICCV2019_MirrorNet/blob/master/assets/results.png" width="100%" height="100%">
 
 ### License
 Please see `license.txt` 
