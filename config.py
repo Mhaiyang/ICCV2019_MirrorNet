@@ -8,7 +8,7 @@
  @Function: configurations.
  
 """
-backbone_path = '/root/backbone/resnext/resnext_101_32x4d.pth'
+backbone_path = '/home/iccd/ICCV2019_MirrorNet/backbone/resnext/resnext_101_32x4d.pth'
 
 msd_training_root = "/media/iccd/disk/release/MSD/train"
 
