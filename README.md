@@ -12,10 +12,11 @@ Mirrors are everywhere in our daily lives. Existing computer vision systems do n
 If you use this code or our dataset (including test set), please cite:
 
 ```
-@InProceedings{Yang_2019_ICCV, 
-    author = {Yang, Xin and Mei, Haiyang and Xu, Ke and Wei, Xiaopeng and Yin, Baocai and Rynson, W.H. Lau}, 
-    title = {Where Is My Mirror?}, 
-    booktitle = {IEEE International Conference on Computer Vision (ICCV)}, 
+@InProceedings{Yang_2019_ICCV,
+    author = {Yang, Xin and Mei, Haiyang and Xu, Ke and Wei, Xiaopeng and Yin, Baocai and Lau, Rynson W.H.},
+    title = {Where Is My Mirror?},
+    booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+    month = {October},
     year = {2019}
 }
 ```
