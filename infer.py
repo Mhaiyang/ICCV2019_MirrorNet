@@ -25,11 +25,11 @@ device_ids = [0]
 torch.cuda.set_device(device_ids[0])
 
 ckpt_path = './ckpt'
-exp_name = 'MirrorNet_validate_2'
+exp_name = 'MirrorNet'
 args = {
     'snapshot': '160',
     'scale': 384,
-    'crf': False
+    'crf': True
 }
 
 img_transform = transforms.Compose([
