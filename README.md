@@ -26,14 +26,22 @@ See [Peoject Page](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html)
 
 ### Requirements
 * python < 3.7.0
-* torch == 0.4.1
+* torch == 1.0.0
 * torchvision == 0.2.1
 * CUDA 9.0  cudnn 7
 * Setup
 ```
-sudo pip3 install -r requirements.txt
+conda create --name mirrornet python=3.6.9
+conda activate mirrornet
+```
+```
+pip install pytorch==1.0.0 torchvision==0.2.1
+```
+```
+pip install -r requirements.txt
 git clone https://github.com/Mhaiyang/dss_crf.git
-sudo python setup.py install
+cd dss_crf
+python setup.py install
 ```
 
 ### Test
