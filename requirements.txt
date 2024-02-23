@@ -1,4 +1,4 @@
-Cython
+cython==0.29.37
 scikit-image
 tensorboardX==1.4
 xlwt
