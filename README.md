@@ -25,8 +25,9 @@ If you use this code or our dataset (including test set), please cite:
 See [Peoject Page](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html)
 
 ### Requirements
-* PyTorch == 0.4.1
-* TorchVision == 0.2.1
+* python < 3.7.0
+* torch == 0.4.1
+* torchvision == 0.2.1
 * CUDA 9.0  cudnn 7
 * Setup
 ```
