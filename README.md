@@ -36,7 +36,7 @@ sudo python setup.py install
 ```
 
 ### Test
-Download the `resnext50_32x4d.pth` at [here](https://download.pytorch.org/models/resnext50_32x4d-7cdf4587.pth) and the trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html), then run `infer.py`.
+Download the `resnext_101_32x4d.pth` at [here](https://drive.google.com/file/d/1e7N7LLZFWX4z0AkMG9wSQDCkOZEaSuFa/view?usp=sharing) and the trained model `MirrorNet.pth` at [here](https://mhaiyang.github.io/ICCV2019_MirrorNet/index.html), then run `infer.py`.
 
 ### Updated Main Results
 
